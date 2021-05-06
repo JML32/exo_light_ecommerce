@@ -1,0 +1,78 @@
+:root {
+    --bg-body: #FFFFFF;
+    --bg-navbar: #2a80b9;
+    --color-text: #2a8fcb;
+    --color-text-fonce: #2a3f52;
+}
+
+button {
+    background-color: var(--bg-navbar);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 30px;
+    height: 50px;
+    width: 140px;
+
+}
+
+label {
+    display: inline-block;
+    color: var(--color-text);
+    font-size: 16px;
+    font-weight: bold;
+    margin: auto;
+    width: 180px;
+    text-align: end;
+}
+
+input {
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+
+form {
+    text-align: left;
+    display: inline-block;
+}
+
+#form {
+    text-align: center;
+}
+
+
+#info {
+    text-align: center;
+}
+
+#error {
+    background-color: var(--bg-navbar);
+    color: var(--color-text);
+    text-align: center;
+    padding: 5px;
+}
+
+#success {
+    background-color: var(--bg-navbar);
+    color: var(--color-text);
+    text-align: center;
+    padding: 5px;
+}
+
+#button {
+    text-align: center;
+    margin-top: 5px;
+}
+

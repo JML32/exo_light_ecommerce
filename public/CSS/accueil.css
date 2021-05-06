@@ -1,0 +1,38 @@
+:root {
+    --bg-body: #FFFFFF;
+    --bg-navbar: #2a80b9;
+    --color-text: #2a8fcb;
+    --color-text-fonce: #2a3f52;
+}
+
+.cardcontainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.insidecardcontainer {
+    padding: 2px 16px;
+    color: var(--color-text);
+    font-weight: bold;
+}
+
+h3 {
+    color: var(--color-text);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 25vw;
+    height: 30vh;
+}
+
+
+

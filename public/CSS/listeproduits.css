@@ -1,0 +1,50 @@
+:root {
+    --bg-body: #FFFFFF;
+    --bg-navbar: #2a80b9;
+    --color-text: #2a8fcb;
+    --color-text-fonce: #2a3f52;
+}
+
+.cardcontainer1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card1 {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+.insidecardcontainer1 {
+    padding: 2px 16px;
+    color: var(--color-text);
+    font-weight: bold;
+}
+
+.img1 {
+    width: 25vw;
+    height: 30vh;
+}
+
+.categories {
+    display: flex;
+    text-align: center;
+    margin: 50px;
+}
+
+.a1 {
+    text-align: center;
+     text-decoration: none;
+     list-style: none;
+    color: var(--color-text);
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+

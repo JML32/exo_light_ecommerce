@@ -1,0 +1,40 @@
+TeckTronik : 
+
+La société TeckTronik est une société commerciale en ligne spécialisée dans les produits audiovisuels "grand public" qu’elle revend à des grossistes. 
+Le site internet n'est actuellement composé que de pages statiques et un catalogue papier est envoyé aux clients. 
+Le responsable, M. Light, vous demande d'automatiser le contenu du site par des pages dynamiques à la façon d’un site de e-commerce 
+pour ainsi économiser l’envoi du catalogue et gagner en réactivité.
+
+La structure de la base de données est conforme au schéma relationnel ci-dessous. Attention il est incomplet ! : 
+
+PRODUIT (#NumProd, NomProd, PrixProd, QteProd, SeuilReappro, Caracteristiques, Couleur, Largeur, Profondeur, Poids)
+CATEGORIE (#NumCat, LibCat)
+FOURNISSEUR (#NumFour, NomFour, AdrFour,CPFour, VilleFour)
+APPROVISIONNEMENT (#NumAppro, DateAppro, QteAch)
+CLIENT (#NumCli, NomCli, PrenomCli, AdrCli, CPCli, VilleCli)
+
+//COMMANDE (#NumCom, DateCom)
+//COMPOSER (#NumProd, QteCom)
+Composer est par rapport à un produit.
+Commande est par rapport à un client.
+COMMANDE (#NumCom, DateCom,#NumCli)
+COMPOSER (#NumCom,#NumProd, QteCom)
+
+Le site devra bien sur être responsive et disposer des fonctionnalités suivantes :
+
+-    Disposer d'une page d'accueil (présentant par exemple, aléatoirement un produit),
+-    Afficher la liste des produits (Nom et prix), 
+-    Pouvoir filtrer selon la catégorie de produits,
+-    Afficher des détails d’un produit,
+-    Connecter et déconnecter un utilisateur. (Page d'inscription et de login )
+-    Le projet devra être disponible sur git avec des commits régulier. Vous joindrez une copie de votre base de données modifée. 
+     Vous pouvez rédiger un document pour justifier vos choix.
+
+Remarque :
+
+Un site d'e-commerce sans panier n'est pas un site de vente. Il faut donc modifier la base de données pour prendre en compte la notion de panier.
+L'utilisateur doit pouvoir ajouter un élément dans le panier.
+
+Ressources :
+
+Quelques données en exemple sont disponibles dans le .sql en pièce jointe. Vous trouverez aussi des images de produits si nécessaire.

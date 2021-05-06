@@ -1,0 +1,40 @@
+:root {
+    --bg-body: #FFFFFF;
+    --bg-navbar: #2a80b9;
+    --color-text: #2a8fcb;
+    --color-text-fonce: #2a3f52;
+}
+
+.card1 {
+    text-align: center;
+}
+
+.insidecardcontainer1 {
+    padding: 2px 16px;
+    color: var(--color-text);
+    font-weight: bold;
+}
+
+.img1 {
+    width: 25vw;
+    height: 30vh;
+}
+
+.categories {
+    display: flex;
+    text-align: center;
+    margin: 50px;
+
+}
+
+.a1 {
+    text-align: center;
+     text-decoration: none;
+     list-style: none;
+    color: var(--color-text);
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+
+}
+

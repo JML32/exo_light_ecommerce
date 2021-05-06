@@ -1,0 +1,3 @@
+couleur bleue   : background : #2a80b9  color : #2a8fcb
+couleur blanche : background : #ffffff
+couleur foncée  : color : #2a3f52  

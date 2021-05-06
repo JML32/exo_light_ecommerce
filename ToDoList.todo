@@ -1,0 +1,26 @@
+- todo project Techtronik :
+
+- MAJ BDD : @done
+  - inclure champ category dans fichier produit @done
+  - category file = code category = 1ères lettres code produit & clé primaire @done
+
+- copier / coller site modèle de Matthieu @done
+
+- site responsive (penser aux média queries)
+
+- create page Accueil: @done
+  - navbar @done
+  - lien login signin @done
+  - produits au hasard dans body @done
+
+- create page login form (cf cours Louis Leuillet) @done
+
+- create page signin (cf cours Louis Leuillet) @done
+
+- afficher la liste des produits @done
+
+- filtre sur catégories produits @done
+
+- afficher détails produits @done
+
+- panier à constituer
