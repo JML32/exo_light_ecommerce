@@ -1,5 +1,6 @@
 <?php
 
+// TODO : a refaire en respectant modèle MVC
 
 $absolutelinkbeg = substr($_SERVER['SCRIPT_FILENAME'],0,44);
 
